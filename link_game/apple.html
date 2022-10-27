@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apple</title>
+    <style>
+        #strselect {
+            color            : #ffffff;      /* 文字の色 */
+            font-size        : 18pt;         /* 文字のサイズ */
+            cursor           :default;
+        }
+        #strselect::-moz-selection {
+            color            : rgba(153, 153, 153, 0.10);      /* 選択時の文字色 */
+            background-color : #999999;      /* 選択時の背景色 */
+        }
+        #strselect::selection {
+            color            : rgba(153, 153, 153, 0.10);      /* 選択時の文字色 */
+            background-color : #999999;      /* 選択時の背景色 */
+        }
+        .sample1{
+            font-size   : 15pt;
+        }
+            .sample1::-moz-selection {
+            text-shadow : 5px  5px 5px red;
+        }
+            .sample1::selection {
+            text-shadow : 5px  5px 5px red;
+        }
+    </style>
+</head>
+<body>
+    <a id="strselect" href="不正解.html">こっちは不正解</a>
+    <p>どちらをクリックしますか？</p>
+    <a id="strselect" href="cat.html">こっちが正解</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>～ここからは備忘録～</p>
+    <span class="sample1">こんなこともできるんだって</span><br>
+    <h1>>>(全選択)
+</body>
+</html>
