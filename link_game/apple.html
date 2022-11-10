@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>apple</title>
+    <title>stage2</title>
     <style>
         #strselect {
             color            : #ffffff;      /* 文字の色 */
@@ -28,19 +28,35 @@
             .sample1::selection {
             text-shadow : 5px  5px 5px red;
         }
+        .box {
+            box-shadow: 0px 0px 15px 0px rgba(98,98,98,0.8); /*影の指定*/
+            /*background:#eaffdf; 背景色の指定*/
+            border: #5a8ad3 2px solid; /*境界線の指定*/
+            border-radius: 6px; /*角丸の指定*/
+            padding: 30px;
+        }
+        .box a {
+            margin: 10;
+            padding: 30;
+        }
+        
     </style>
 </head>
 <body>
-    <a id="strselect" href="不正解.html">こっちは不正解</a>
-    <p>どちらをクリックしますか？</p>
-    <a id="strselect" href="cat.html">こっちが正解</a>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <p>～ここからは備忘録～</p>
-    <span class="sample1">こんなこともできるんだって</span><br>
-    <h1>>>(全選択)
+    <div class="box">
+        <a id="strselect" href="不正解.html">こっちは不正解</a>
+        <p>どちらをクリックしますか？</p>
+        <a id="strselect" href="cat.html">こっちが正解</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>～ここからは備忘録～</p>
+        <span class="sample1">こんなこともできるんだって</span><br>
+        <h1>>>(全選択)
+    </div>
+    
 </body>
+
 </html>
