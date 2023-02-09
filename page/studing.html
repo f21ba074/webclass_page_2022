@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>松浦葵のホームページ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="松浦葵のホームページ">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--これを使うとメニューバーが表示される（Java Script）-->
+  <!--メニューバーの展開-->
+  <script src="js/openclose.js"></script>
+  <script src="js/fixmenu_pagetop.js"></script>
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+  <div id="container">
+    
+    <header>
+      <h1 id="logo"><a href="index.html"><img src="images/home-logo.png" alt="松浦葵のホームページ"></a></h1>
+    </header>
+
+    <nav id="menubar">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="studing.html">学んでいること</a></li>
+        <li><a href="results.html">開発実績</a></li>
+        <li><a href="hobby.html">趣味</a></li>
+      </ul>
+    </nav>
+
+    <div id="contents">
+
+      <section>
+
+        <h2></h2>
+        <h2>Studing<br><span>学んでいること</span></h2>
+
+        <h3>学歴</h3>
+        <p>プログラミング初学者</p>
+        <p>専門学校に入学してからプログラミングをさわる</p>
+        <p>CID EXPOではドローンレースチームに配属</p>
+
+        <h3>使用言語</h3>
+        <p>
+          2021年4月からJavaを履修<br>
+          2021年10月からC言語とHTML,CSSを履修<br>
+          2022年4月からLinuxとPythonを履修<br>
+          <strong class="color1">2022年10月からJavaScriptを履修</strong>
+        </p>
+
+        <h3>検定や試験</h3>
+        <p>サーティファイ 情報処理技術者能力認定試験 1級 ：<strong class="color1">合格</strong></p>
+        <p>サーティファイ 情報処理技術者能力認定試験 2級1部 ：<strong class="color1">合格</strong></p>
+        <p>サーティファイ 情報処理技術者能力認定試験 2級2部 ：<strong class="color1">合格</strong></p>
+        <p>サーティファイ 情報処理技術者能力認定試験 3級 ：<strong class="color1">合格</strong></p>
+        <p>サーティファイ 実践プログラミング技術者試験 Java部門 Bronze</p>
+        <p>一般財団法人 職業教育・キャリア教育財団 情報活用能力検定 情報活用試験 1級 ：<strong class="color1">合格</strong></p>
+        <p>一般社団法人 全国専門学校情報教育協会 インターネット ベーシック ユーザー テスト(iBut) ：<strong class="color1">合格</strong></p>
+        <p>Oracle Certified Java Programmer, Bronze SE 7/8 ：<strong class="color1">合格</strong></p>
+        <p><strong class="color1">基本情報技術者試験 ：合格</strong></p>
+        <p>一般財団法人 職業教育・キャリア教育財団 情報システム試験 基本スキル ：<strong class="color1">合格</strong></p>
+        <p>一般財団法人 職業教育・キャリア教育財団 情報システム試験 プログラミングスキル ：<strong class="color1">合格</strong></p>
+        <p>一般財団法人 職業教育・キャリア教育財団 情報システム試験 プログラマ ：<strong class="color1">認定</strong></p>
+        <p>一般財団法人 職業教育・キャリア教育財団 情報システム試験 システムエンジニア ：<strong class="color1">認定</strong></p>
+        <p><strong class="color1">Oracle Certified Java Programmer, Silver SE 11 ：合格</strong></p>
+        <p>  他</p>
+        
+
+      </section>
+
+    </div>
+    <!--/#contents-->
+
+    <footer>
+      <ul class="icon">
+        <li><a href="#"><img src="images/icon_facebook.png" alt="Facebook"></a></li>
+        <li><a href="#"><img src="images/icon_twitter.png" alt="Twitter"></a></li>
+        <li><a href="#"><img src="images/icon_instagram.png" alt="Instagram"></a></li>
+        <li><a href="#"><img src="images/icon_youtube.png" alt="TouTube"></a></li>
+      </ul>
+    </footer>
+
+  </div>
+  <!--/#container-->
+
+  <p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+  <!--メニュー開閉ボタン-->
+  <div id="menubar_hdr" class="close"></div>
+
+  <!--メニューの開閉処理-->
+  <script>
+    open_close("menubar_hdr", "menubar");
+  </script>
+
+  <!--lightbox用jsファイルの読み込み-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+
+</body>
+
+</html>
